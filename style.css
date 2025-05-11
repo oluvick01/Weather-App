@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(asset/image/bg1.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.wrapper{
+margin: 10% 25%; 
+display: flex;
+align-items: center;
+justify-content: center;
+height: 60vh;
+backdrop-filter: blur(20px);
+background-color: transparent;
+
+width: 50%;
+}
+.card{
+    display: flex;
+    align-items: center;
+   background-color: inherit;
+   border: none;
+}
+.hidden{
+    display: none;
+}
+.error-message{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.weather-input{
+   border-radius: 10px;
+   width: 100%;
+   
+    padding: 5% 5%;
+    outline: none;
+    color: royalblue;
+}
+.weather-input::placeholder{
+    font-size: 0.8rem;
+    color: royalblue;
+}
+.get-weather-btn{
+     outline: none;
+     color: royalblue; 
+     font-size: 0.7rem !important;
+     width: auto;
+}
+.weather-content{
+    color: blue;
+    font-size: 1rem;
+    font-weight: light;
+}
