@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         errorMessage.classList.remove('hidden')
         weatherContent.classList.add('hidden')
       }
+     weatherInput.value = "";
         
     })
 
