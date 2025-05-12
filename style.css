@@ -39,24 +39,24 @@ width: 50%;
    
     padding: 5% 5%;
     outline: none;
-    color: royalblue;
+     color: rgb(14, 79, 31) !important;
 }
 .weather-input::placeholder{
     font-size: 0.8rem;
-    color: royalblue;
+     color: rgb(14, 79, 31) !important;
 }
 .get-weather-btn{
      outline: none;
      color: royalblue; 
      font-size: 0.8rem !important;
      width: auto;
-   
+   background-color: rgb(14, 79, 31) !important;
      :hover{
         background-color: aqua !important;
      }
 }
 .weather-content{
-    color: blue;
+     color: rgb(14, 79, 31) !important;
     font-size: 1rem;
     font-weight: light;
 }
@@ -79,20 +79,14 @@ width: 80%;
     outline: none;
     color: royalblue;
 }
-.weather-input::placeholder{
-    font-size: 0.8rem;
-    color: royalblue;
-}
 .get-weather-btn{
      outline: none;
-     color: royalblue; 
      font-size: 0.7rem !important;
      width: auto;
       padding: 3% 2%;
 }
 .weather-content{
-    color: blue;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: light;
 }
 }
